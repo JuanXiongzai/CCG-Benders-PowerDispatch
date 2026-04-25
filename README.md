@@ -16,6 +16,6 @@ This repository serves as a numerical validation toolkit for scalable bi-level m
 ```
 ## ⚙️ Environment & Dependencies
 To execute the models and decomposition algorithms in this repository, the following environment is required:
-* **MATLAB** (R2023a or later recommended)
-* **Gurobi Optimizer** (v10.0 or later)
+* **MATLAB** (R2021b or later recommended)
+* **Gurobi Optimizer** (v11.0 or later)
 * **YALMIP Toolbox** 
