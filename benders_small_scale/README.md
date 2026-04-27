@@ -1,6 +1,6 @@
 # Benders Decomposition for Two-Stage Robust Optimization
 
-This folder contains a reproduction of the **Benders Decomposition (Cutting Plane)** algorithm applied to a two-stage robust optimization problem, following the numerical baseline described in:
+This folder contains a reproduction of the **Benders Decomposition (Cutting Plane)** and **Column and Constraints Generation (C&CG)** algorithm applied to a two-stage robust optimization problem, following the numerical baseline described in:
 
 > **Zeng, B., & Zhao, L. (2013).** Solving two-stage robust optimization problems using a column-and-constraint generation method. *Operations Research Letters*, 41(5), 457-461.
 
@@ -16,4 +16,4 @@ The algorithm utilizes the traditional Benders-style cutting plane method:
 ## Implementation Details
 - **Test Case**: Small-scale location-transportation network.
 - **Solver**: Gurobi / CPLEX.
-- **Key Outcome**: Demonstration of the convergence properties and limitations of the standard Benders method in robust frameworks.
+- **Key Outcome**: Demonstration of the faster convergence of C&CG algorithm the standard Benders method in robust frameworks.
